@@ -103,7 +103,7 @@ for alpa=1:limit
 end
 
 figure(1); hold on;  
-plot((1:limit),costX,'-cyanhexagram','MarkerSize',6);xlabel('Cache size (% of main library size)','FontSize', 10); ylabel('NC','FontSize', 10); legend('2LRU','LRU','RR','PRR','Least X','Location','northeast'); box on;
+plot((1:limit),costX,'-cyanhexagram','MarkerSize',6);xlabel('Cache size (% of main library size)','FontSize', 10); ylabel('NC','FontSize', 10); legend('Least Xf','Location','northeast'); box on;
 
 figure(2); hold on; 
-plot((1:limit),outX,'-cyanhexagram','MarkerSize',6);xlabel('Cache size (% of main library size)','FontSize', 10); ylabel('BBC(in minutes)','FontSize', 10); legend('2LRU','LRU','RR','PRR','Least X','Location','northeast'); box on;
+plot((1:limit),outX,'-cyanhexagram','MarkerSize',6);xlabel('Cache size (% of main library size)','FontSize', 10); ylabel('BBC(in minutes)','FontSize', 10); legend('Least Xf','Location','northeast'); box on;
